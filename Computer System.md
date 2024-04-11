@@ -11,3 +11,5 @@
 	고급 언어로 작성된 프로그램들은 저급 기계어 인스트럭션들로 번역되어야 한다.
 	이 인스트럭션들은 실행가능 목적 프로그램이라고 하는 형태로 합쳐져서 
 	바이너리 디스크 파일로 저장된다.
+	```mermaid sequenceDiagram Alice->>+John: Hello John, how are you? Alice->>+John: John, can you hear me? John-->>-Alice: Hi Alice, I can hear you! John-->>-Alice: I feel great! ```
+
