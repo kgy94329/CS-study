@@ -12,6 +12,7 @@
 이 인스트럭션들은 실행가능 목적 프로그램이라고 하는 형태로 합쳐져서 
 바이너리 디스크 파일로 저장된다.
 ```mermaid
-graph TD;
-A-test->B;
+flowchart LR
+    A--text test-->B
+
 ```
