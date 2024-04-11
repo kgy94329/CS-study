@@ -14,6 +14,9 @@
 * ### 컴파일 시스템
 ```mermaid
 flowchart LR
-    소스프로그램 -- 전처리(Pre-processor) --> 처리된소스프로그램 -- 컴파일(Compiler) --> 어셈블리프로그램 -- 어셈블러(Assembler) --> RelocatableObjectPrograms(binary) -- 링크(Linker) ----> 실행
+    소스프로그램 -- 전처리(Pre-processor) --> 처리된소스프로그램
+    처리된소스프로그램 -- 컴파일(Compiler) --> 어셈블리프로그램
+    어셈블리프로그램 -- 어셈블러(Assembler) --> RelocatableObjectPrograms(binary)
+    RelocatableObjectPrograms(binary) -- 링크(Linker) ----> 실행
 ```
 * ==Compile== : 인간이 이해할 수 있는 언어로 작성된 소스 코드(고수준 언어 : C, C++, Java 등)를 CPU가 이해할 수 있는 언어(저수준 언어 : 기계어)로 번역(변환)하는 작업을 말한다.
